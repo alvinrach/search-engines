@@ -1,0 +1,29 @@
+account_code,account_name,labels
+10.1.00,Revenue,"Revenue, Net Sales, Net Revenue, Financing revenues, Turnover, Sales"
+10.2.00,Cost of Sales,"Cost of Goods Sold, Purchases, Producing and manufacturing, Cost of revenue, Production and manufacturing expenses, COGS"
+10.3.00,GROSS PROFIT,"Gross margin, Net financing revenues"
+10.3.01,Other Operating Income,Other income related to sales
+10.3.10,Sales and Marketing Expenses,"Advertising, Marketing, Selling, administrative and general, Sales and marketing, Selling, General and Administrative Expenses, Selling & Marketing Expenses"
+10.3.11,General and Admin Expenses,"Professional and Outside Services, Technology, communications and equipment expense, General and administrative, Operating and administrative, Administrative expenses"
+10.3.12,Personnel and Benefit Expenses,"Compensation Expense, Non-service pension and post-retirement benefit expense, employee benefits"
+10.3.13,Operating Lease and Rent Expenses ,"Occupancy Expense, Rental expense"
+10.3.14,Research and Development Expenses,R&D
+10.3.15,Bad Debt Expense and Allowance Expenses,Provision for credit losses
+10.3.16,Depreciation and Amortisation Expenses,"Depreciation and amortization, Depreciation and depletion (includes impairments), Amortization of deferred costs"
+10.3.17,Impairment Loss,"Amortization of deferred costs, Impairment, Goodwill Impairment, Decrease in Goodwill"
+10.3.90,Other Operating Expenses,Voluntary protection contract expenses and insurance losses
+10.3.99,TOTAL OPERATING EXPENSES,
+10.4.00,NET OPERATING PROFIT,"Operating income, Operating profit, Income from operations, EBIT"
+10.4.10,Interest Income,"Finance Income, Interest received"
+10.4.11,Interest Expense (-),"Finance costs, Financial expense, Interest received, Finance Charge"
+10.4.99,TOTAL NET INTEREST INCOME (EXPENSE),
+10.5.10,Share of profits from associates,"Share of results of joint ventures and associates, Income from equity affiliates, Share of net profit of associates and joint ventures"
+10.5.11,Dividends Income,"Dividends, Dividends Received, Other Income from Financial Assets"
+10.5.12,Realised Foreign Exchange Gain (Loss),Trading income (expense) on foreign exchange contracts
+10.5.13,Gain (Loss) on Disposal of Fixed Assets,
+10.5.14,Gain (Loss) on Investments,
+10.5.90,Other Income (Expense),"Other income, net, Other income/(expense), net, Other non-operating income, Other Gain, Gain, Other income (expense) from subsidiaries, jointly controlled entities and associates, Other taxes and duties, Other non-operating expense, Other Loss"
+10.5.99,TOTAL OTHER INCOME (EXPENSE),
+10.6.00,PROFIT (LOSS) BEFORE TAX,"Income Before Income Tax Expense, Profit before taxation, Income (loss) before income taxes, Income before income taxes, Income before provision for income taxes"
+10.6.10,Tax Expense (Income),"Income Tax Expense, Income taxes and zakat, Provision for income taxes, Income tax expense (benefit), Current Income Tax"
+10.7.00,NET PROFIT (LOSS),"Net Income, Profit for the year, Net income (loss)"

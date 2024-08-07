@@ -1,5 +1,5 @@
 import streamlit as st
-from modules import bm25
+from modules import new_bm25
 import json
 
 st.title('Similar Account')
@@ -12,21 +12,7 @@ st.warning(
     """
 )
 
-with open("assets.json", "r") as read_content: 
-    assets = json.load(read_content)
+searching = st.text_input("Type Account Name", placeholder='e.g. Turnover')
 
-option = st.selectbox(
-    "Select TP Standard Account Name",
-    assets,
-    index=None,
-    placeholder="Select one...",
-)
-
-st.markdown('# Top 2 Most Similar Items:')
-
-try:
-    results = bm25(query_item=option)
-    for j,i in enumerate(results):
-        st.write(f'{j+1}. {i}')
-except:
-    st.write('Select the account name first')
+if st.button('Search'):
+    st.dataframe(new_bm25(searching))
