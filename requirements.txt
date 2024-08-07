@@ -9,11 +9,13 @@ gitdb==4.0.11
 GitPython==3.1.43
 idna==3.7
 Jinja2==3.1.4
+joblib==1.4.2
 jsonschema==4.23.0
 jsonschema-specifications==2023.12.1
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 mdurl==0.1.2
+nltk==3.8.1
 numpy==2.0.1
 packaging==24.1
 pandas==2.2.2
@@ -24,7 +26,9 @@ pydeck==0.9.1
 Pygments==2.18.0
 python-dateutil==2.9.0.post0
 pytz==2024.1
+rank-bm25==0.2.2
 referencing==0.35.1
+regex==2024.7.24
 requests==2.32.3
 rich==13.7.1
 rpds-py==0.20.0
@@ -35,6 +39,7 @@ tenacity==8.5.0
 toml==0.10.2
 toolz==0.12.1
 tornado==6.4.1
+tqdm==4.66.5
 typing_extensions==4.12.2
 tzdata==2024.1
 urllib3==2.2.2
